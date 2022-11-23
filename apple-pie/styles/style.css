@@ -1,0 +1,93 @@
+/* Body Container */
+body {
+    height: 100vh;
+    margin:0%;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: medium;
+    line-height: 1.5;
+}
+
+#content {
+    padding-left: 8vh;
+    padding-right: 8vh;
+}
+
+
+/* First Image Container */
+#imagecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+body img {
+    height: 600px;
+    width:100%;
+    object-fit: cover;
+}
+
+/* Second & Thrid Image */
+#content > img {
+   object-fit:contain; 
+   padding-bottom: 15px;
+   border-bottom: 1px solid gray;
+}
+
+#image2 {
+    height: 50px;
+}
+
+#image3 {
+    height: 60px;
+}
+
+
+/* Titles */
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+
+
+
+/* Subtitle */
+.subtitle1, .subtitle2 {
+font-size: large;
+margin-top: 5vh;}
+
+
+
+/* Paragraph */
+#content > p {
+ font-size: medium;
+}
+
+.firstp{
+    margin: 50px 0px 35px 0px;
+}
+
+.secondp{
+    padding-bottom: 10vh;
+}
+
+
+
+/* List and Hyphen */
+.hyphen > li {
+font-size: medium;
+}
+
+.hyphen{
+    list-style-type:"-";
+}
+
+
+
+
+
+
+
